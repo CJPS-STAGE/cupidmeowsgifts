@@ -369,17 +369,4 @@ function showResult() {
 
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
-  document.getElementById('restart-button').style.display = 'block';
 }
-
-function restartQuiz() {
-  currentQuestion = 0;
-  userAnswers = {};
-  selectedCategory = null;
-
-  document.getElementById('result').style.display = 'none';
-  document.getElementById('quiz-page').style.display = 'none';
-  document.getElementById('category-page').style.display = 'block';
-}
-
-document.getElementById('restart-button').addEventListener('click', restartQuiz);
