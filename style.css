@@ -38,7 +38,7 @@ button {
 }
 
 .button-74 {
-  font-family: "Sarina", cursive;
+  font-family: "Ribeye", serif;
   background-color: #fbeee0;
   border: 2px solid #974141;
   border-radius: 30px;
@@ -91,6 +91,7 @@ button {
   font-family: "Ribeye", serif;
   font-size: 24px;
   margin-bottom: 20px;
+  color:#974141;
 }
 #result-image {
   max-width: 80%;
