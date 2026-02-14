@@ -89,8 +89,10 @@ button {
 .question-text {
   font-family: "Ribeye", serif;
   font-size: 20px;
+  font-weight: 600;
   margin-bottom: 20px;
   color:#974141;
+
 }
 #result-image {
   max-width: 80%;
