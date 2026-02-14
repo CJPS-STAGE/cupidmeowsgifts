@@ -289,7 +289,7 @@ function displayQuestion() {
 
   if (!question) return;
 
-  let html = `<p>${question.question}</p>`;
+  let html = `<p class="question-text">${question.question}</p>`;
 
   if (question.image) {
     html += `<img src="${question.image}" alt="Question ${currentQuestion + 1}">`;
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
