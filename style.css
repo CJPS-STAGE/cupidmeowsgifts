@@ -7,7 +7,7 @@ body {
   justify-content: center;  /* horizontal center */
   align-items: center;      /* vertical center */
 
-  background: #111;         /* optional aesthetic */
+  background: #ffdbd1;         /* optional aesthetic */
   color: white;
   font-family: Arial, sans-serif;
 }
@@ -33,4 +33,28 @@ img {
   max-width: 50%;
   height: auto;
   margin: 10px 0;
+}
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: block;        /* change from inline-block */
+  width: 100%;           /* makes buttons centered layout-friendly */
+  font-weight: 600;
+  font-size: 18px;
+  padding: 12px 18px;    /* better for multi-line text */
+  text-align: left;      /* better for story-style choices */
+  user-select: none;
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
 }
