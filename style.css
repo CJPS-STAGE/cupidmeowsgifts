@@ -68,7 +68,7 @@ button {
   margin: 10px auto;
   display: block;
 }
-#result-image {
+#result {
   width: 100%;
   max-width: 500px;   /* large dramatic reveal */
   height: auto;
