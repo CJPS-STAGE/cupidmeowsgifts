@@ -1,5 +1,6 @@
 html {
   font-size: 16px;
+}
 
 
 body {
@@ -34,13 +35,6 @@ button {
   cursor: pointer;
 }
 
-{
-  width: 100%;
-  max-width: 400px;  
-  height: auto;
-  margin: 20px auto;
-  display: block;
-}
 
 .button-74 {
   font-family: "Ribeye", serif;
@@ -131,7 +125,8 @@ button {
 }
 
 
-@@media (max-width: 600px) {
+@media (max-width: 600px)
+ {
 
   .page-center {
     max-width: 420px;  
