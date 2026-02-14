@@ -61,3 +61,24 @@ button {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
+#quiz-page img {
+  width: 100%;
+  max-width: 220px;   /* small size */
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+#result-image {
+  width: 100%;
+  max-width: 500px;   /* large dramatic reveal */
+  height: auto;
+  margin: 20px auto;
+  display: block;
+}
+#startup-gif {
+  width: 100%;
+  max-width: 300px;   /* adjust to taste */
+  height: auto;
+  margin: 15px auto 25px auto;
+  display: block;
+}
