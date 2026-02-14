@@ -1,23 +1,22 @@
-/* Remove browser default spacing */
 body {
   margin: 0;
   height: 100vh;
 
   display: flex;
-  justify-content: center;  /* horizontal center */
-  align-items: center;      /* vertical center */
+  justify-content: center;  
+  align-items: center;      
 
-  background: #ffdbd1;         /* optional aesthetic */
+  background: #ffdbd1;         
   color: white;
   font-family: Arial, sans-serif;
 }
 
 
-/* Main content box */
+
 .page-center {
   width: 100%;
-  max-width: 600px;   /* controls site width */
-  text-align: center; /* center text */
+  max-width: 600px;   
+  text-align: center; 
   padding: 20px;
 }
 button {
@@ -31,7 +30,7 @@ button {
 
 {
   width: 100%;
-  max-width: 400px;  /* controls final size */
+  max-width: 400px;  
   height: auto;
   margin: 20px auto;
   display: block;
@@ -45,12 +44,12 @@ button {
   box-shadow: #974141 4px 4px 0 0;
   color: #974141;
   cursor: pointer;
-  display: block;        /* change from inline-block */
-  width: 100%;           /* makes buttons centered layout-friendly */
+  display: block;        
+  width: 100%;           
   font-weight: 600;
   font-size: 18px;
-  padding: 12px 18px;    /* better for multi-line text */
-  text-align: left;      /* better for story-style choices */
+  padding: 12px 18px;    
+  text-align: left;      
   user-select: none;
 }
 
@@ -64,7 +63,7 @@ button {
 }
 #quiz-page img {
   width: 100%;
-  max-width: 300px;   /* small size */
+  max-width: 300px;   
   height: auto;
   margin: 10px auto;
   display: block;
@@ -82,7 +81,7 @@ button {
 }
 #startup-gif {
   width: 100%;
-  max-width: 500px;   /* adjust to taste */
+  max-width: 500px;   
   height: auto;
   margin: 15px auto 25px auto;
   display: block;
@@ -95,20 +94,25 @@ button {
 }
 #result-image {
   max-width: 80%;
-  max-height: 60vh; /* prevents overflow off screen */
+  max-height: 60vh; 
   height: auto;
   object-fit: contain;
 }
 #category-page h2 {
-  font-family: "Sarina", cursive; /* or "Sarina", cursive */
-  font-size: 28px;               /* adjust to taste */
-  color: #974141;                /* optional: matches buttons */
+  font-family: "Sarina", cursive; 
+  font-size: 28px;               
+  color: #974141;               
   margin-bottom: 20px;
-  text-align: center;            /* ensures title is centered */
+  text-align: center;           
 }
 .result-text {
   font-family: "Ribeye", serif;
   font-size: 24px;
   margin-bottom: 20px;
   color:#974141;
+}
+#result h4 {
+  color: #422800; 
+  text-align: center;   
+  margin-top: 10px;
 }
