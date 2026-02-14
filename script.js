@@ -135,14 +135,14 @@ const questions = [
   },
   {
     question: "“Don’t fret. I am Mage Neelam. The Wise and Generous of the Candy Borders.” Mage Neelam says softly.<br><br> “Um.. I’m Mia, her apprentice.” Mia says with a crooked smile.",
-    image: "IMAGES/q13.png",
+    image: "IMAGES/q14.png",
     answers: {
       A: { text: "Candy Borders..? Miss, I’m not from this dimension! Please take me back home!", scores: { shin: 1, anu: 1, sof: 1, emi: 1, leon: 1, gion: 1, joni: 1, ciel: 1, felix: 1, chu: 1, alex: 1, sham: 1, mia: 1, liv: 1, alb: 1, char: 1, nor: 1, cor: 1, ric: 1, kim: 1 } }
     }
   },
   {
     question: "“H-huh, really?! That explains the major changes in the borders earlier..” Mia responds. <br><br>“Ah, yes. You are correct, Mia. This is quite the case. Well, our outlander shouldn’t overstay their welcome. I shall bring you back now.” Mage Neelam says as she waves her sceptre.",
-    image: "IMAGES/q14.png",
+    image: "IMAGES/q13.png",
     answers: {
       A: { text: "Damn, finally! This advertisement is way too long.", scores: { kim: 1, nor: 1, ric: 1, anu: 1, shin: 1 } },
       B: { text: "I miss my home…", scores: { mia: 1, cor: 1, alex: 1, liv: 1, char: 1, gion: 1, leon: 1 } },
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
