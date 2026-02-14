@@ -99,4 +99,11 @@ button {
   height: auto;
   object-fit: contain;
 }
+#category-page h2 {
+  font-family: "Sarina", cursive; /* or "Sarina", cursive */
+  font-size: 28px;               /* adjust to taste */
+  color: #974141;                /* optional: matches buttons */
+  margin-bottom: 20px;
+  text-align: center;            /* ensures title is centered */
+}
 
