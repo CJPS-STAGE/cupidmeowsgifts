@@ -364,11 +364,12 @@ function showResult() {
     <p>${finalData.description}</p>
   `;
 
-  resultImage.src = "images/" + finalData.image;
+  resultImage.src = "IMAGES/" + finalData.image;
   resultImage.alt = finalData.name;
 
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
