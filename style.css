@@ -92,4 +92,10 @@ button {
   font-size: 24px;
   margin-bottom: 20px;
 }
+#result-image {
+  max-width: 80%;
+  max-height: 60vh; /* prevents overflow off screen */
+  height: auto;
+  object-fit: contain;
+}
 
