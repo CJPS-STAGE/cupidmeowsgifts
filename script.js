@@ -114,7 +114,7 @@ const questions = [
     }
   },
   {
-    question: "“HUUUUUUH?!?!?” Prince Gion flashes an evil smirk. “Guards, seize this peasant now!” he immediately commands. <br><br>You finally realise the situation you’re in. You ran away from the commotion, looking for a hiding spot. Suddenly, you stumble onto someone by accident. “AAAAH!” a soft voice yelps.",
+    question: "“HUUUUUUH?!?!?” <br><br> Prince Gion flashes an evil smirk. “Guards, seize this peasant now!” he immediately commands. <br><br>You finally realise the situation you’re in. You ran away from the commotion, looking for a hiding spot. Suddenly, you stumble onto someone by accident. “AAAAH!” a soft voice yelps.",
     image: "IMAGES/q11.png",
     answers: {
       A: { text: "OH GOD I’M SO SORRY PLEASE DON’T KILL ME", scores: { sham: 1, ciel: 1, fel: 1, chu: 1 } },
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
