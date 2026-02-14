@@ -45,7 +45,7 @@ const questions = [
     }
   },
   {
-    question: "“Uh…. Anyways! This fruit tart represents balance in your relationship. The blackberries represent the real love that exists when you know someone completely. The strawberries represent the happiness and purity in love. The raspberries represent the kindness and virtue needed in love.<br> To have the greatest love, you must eat this fruit tart with the right amount of intention!” Cupid Meow finishes.",
+    question: "“Uh…. Anyways! This fruit tart represents balance in your relationship. The blackberries represent the real love that exists when you know someone completely. The strawberries represent the happiness and purity in love. The raspberries represent the kindness and virtue needed in love.<br><br> To have the greatest love, you must eat this fruit tart with the right amount of intention!” Cupid Meow finishes.",
     image: "IMAGES/q4.gif",
     answers: {
       A: { text: "Not reading allat. *eats the fruit tart*", scores: { chu: 1, anu: 1, ric: 1 } },
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
