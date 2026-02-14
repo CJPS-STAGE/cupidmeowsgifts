@@ -163,122 +163,122 @@ const resultOptions = {
   joni: {
     category: "Candy Series",
     name: "Joni",
-    image: "ball.png",
+    image: "joni.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   chu: {
     category: "Candy Series",
     name: "Charles",
-    image: "ball.png",
+    image: "chuuni.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   sof: {
     category: "Candy Series",
     name: "Sofia",
-    image: "ball.png",
+    image: "sofia.png.png",
     description: "You are... a Sofia Perfume!"
   },
   nor: {
     category: "Candy Series",
     name: "Norman",
-    image: "ball.png",
+    image: "norman.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   kim: {
     category: "Candy Series",
     name: "Kim Ji Won",
-    image: "ball.png",
+    image: "kimjiwon.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   emi: {
     category: "Candy Series",
     name: "Emilia",
-    image: "ball.png",
+    image: "emilia.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   ric: {
     category: "Candy Series",
     name: "Richard",
-    image: "ball.png",
+    image: "richard.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   cor: {
     category: "Candy Series",
     name: "Corey",
-    image: "ball.png",
+    image: "corey.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   mia: {
     category: "Candy Series",
     name: "Mia",
-    image: "ball.png",
+    image: "mia.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   sham: {
     category: "Candy Series",
     name: "Alex",
-    image: "ball.png",
+    image: "sham.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
 
   ciel: {
     category: "Prince Series",
     name: "Ciel",
-    image: "ball.png",
+    image: "ciel.png.png",
     description: "You are... a Ciel Perfume!"
   },
   fel: {
     category: "Prince Series",
     name: "Felix",
-    image: "ball.png",
+    image: "felix.png.png",
     description: "You are... a Ciel Perfume!"
   },
   leon: {
     category: "Prince Series",
     name: "Leon",
-    image: "ball.png",
+    image: "leon.png.png",
     description: "You are... a Ciel Perfume!"
   },
   shin: {
     category: "Prince Series",
     name: "Shintarou",
-    image: "ball.png",
+    image: "shintarou.png.png",
     description: "You are... a Ciel Perfume!"
   },
   anu: {
     category: "Prince Series",
     name: "Anubis",
-    image: "ball.png",
+    image: "anubis.png.png",
     description: "You are... a Ciel Perfume!"
   },
   gion: {
     category: "Prince Series",
     name: "Gion",
-    image: "ball.png",
+    image: "gion.png.png",
     description: "You are... a Ciel Perfume!"
   },
   liv: {
     category: "Prince Series",
     name: "Livio",
-    image: "ball.png",
+    image: "livio.png.png",
     description: "You are... a Ciel Perfume!"
   },
   alb: {
     category: "Prince Series",
     name: "Albert",
-    image: "ball.png",
+    image: "albert.png.png",
     description: "You are... a Ciel Perfume!"
   },
   char: {
     category: "Prince Series",
     name: "Charles",
-    image: "ball.png",
+    image: "charles.png.png",
     description: "You are... a Ciel Perfume!"
   },
   alex: {
     category: "Prince Series",
     name: "Alexis",
-    image: "ball.png",
+    image: "alexis.png.png",
     description: "You are... Alexis Morning Pancakes!"
   }
 };
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
