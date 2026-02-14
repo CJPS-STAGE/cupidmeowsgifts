@@ -22,14 +22,14 @@ body {
 
 .page-center {
   width: 100%;
-  max-width: 600px;   
+  max-width: 460;   
   text-align: center; 
-  padding: 20px;
+  padding: 16px;
 }
 button {
   display: block;
   width: 100%;
-  margin: 10px 0;
+  margin: 8px 0;
   padding: 15px;
   font-size: 16px;
   cursor: pointer;
@@ -47,8 +47,8 @@ button {
   display: block;        
   width: 100%;           
   font-weight: 600;
-  font-size: 18px;
-  padding: 12px 18px;    
+  font-size: 16px;
+  padding: 10px 14px;    
   text-align: left;      
   user-select: none;
 }
@@ -81,7 +81,7 @@ button {
 }
 #startup-gif {
   width: 100%;
-  max-width: 500px;   
+  max-width: 320px;   
   height: auto;
   margin: 15px auto 25px auto;
   display: block;
@@ -109,7 +109,7 @@ button {
 }
 .result-text {
   font-family: "Ribeye", serif;
-  font-size: 24px;
+  font-size: 20px;
   margin-bottom: 20px;
   color:#974141;
 }
@@ -134,15 +134,17 @@ button {
   }
 
   .question-text {
-    font-size: 13;
+    font-size: 13px;
   }
 
   .button-74 {
     font-size: 13px;
-    padding: 12px 14px;
-  }
+    padding: 12px 
+    
+  #category-page h2 {
+  font-size: 22px;
+}
 
-  #category-page h2,
   #result h2 {
     font-size: 20px;
   }
