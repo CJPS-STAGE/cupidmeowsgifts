@@ -297,7 +297,7 @@ function displayQuestion() {
 
   for (const option in question.answers) {
     html += `
-      <button class="large-rectangular" value="${option}">
+      <<button class="button-74"> value="${option}">
         ${question.answers[option].text}
       </button>
     `;
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
