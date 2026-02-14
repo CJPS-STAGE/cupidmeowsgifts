@@ -121,3 +121,48 @@ button {
   text-align: center;   
   margin-top: 10px;
 }
+
+
+@media (max-width: 600px) {
+  
+  
+  .question-text {
+    font-size: 26px; 
+  }
+
+ 
+  .button-74 {
+    font-size: 20px;
+    padding: 16px 20px; 
+     width: 100%;
+    padding: 16px 20px;
+    font-size: 20px;
+  }
+
+  
+  #quiz img {
+    max-width: 90%; 
+  }
+
+  
+  #result-image {
+    max-width: 90%;
+    max-height: 50vh; 
+  }
+
+
+  #category-page img {
+    max-width: 80%;
+  }
+
+  
+  #category-page h2, #result h2 {
+    font-size: 30px;
+  }
+
+  #result h4 {
+    font-size: 18px;
+  }
+
+}
+
