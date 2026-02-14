@@ -70,7 +70,7 @@ button {
 }
 #result {
   width: 100%;
-  max-width: 500px;   /* large dramatic reveal */
+  max-width: 100px;   /* large dramatic reveal */
   height: auto;
   margin: 10px auto;
   display: block;
