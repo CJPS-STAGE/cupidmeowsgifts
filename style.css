@@ -38,6 +38,7 @@ button {
 }
 
 .button-74 {
+  font-family: "Sarina", cursive;
   background-color: #fbeee0;
   border: 2px solid #974141;
   border-radius: 30px;
@@ -70,10 +71,14 @@ button {
 }
 #result {
   width: 100%;
-  max-width: 100px;   /* large dramatic reveal */
-  height: auto;
-  margin: 10px auto;
-  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 15px;
 }
 #startup-gif {
   width: 100%;
@@ -82,3 +87,9 @@ button {
   margin: 15px auto 25px auto;
   display: block;
 }
+.question-text {
+  font-family: "Ribeye", serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
