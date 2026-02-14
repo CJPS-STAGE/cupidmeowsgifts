@@ -129,7 +129,7 @@ button {
   
   
   .question-text {
-    font-size: 30px; 
+    font-size: 40px; 
   }
 
  
@@ -143,12 +143,12 @@ button {
 
   
   #quiz img {
-    max-width: 100%; 
+    max-width: 120%; 
   }
 
   
   #result-image {
-    max-width: 100%;
+    max-width: 130%;
     max-height: 50vh; 
   }
 
