@@ -106,4 +106,9 @@ button {
   margin-bottom: 20px;
   text-align: center;            /* ensures title is centered */
 }
-
+.result-text {
+  font-family: "Ribeye", serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:#974141;
+}
