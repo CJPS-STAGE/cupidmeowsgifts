@@ -1,0 +1,36 @@
+/* Remove browser default spacing */
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center */
+
+  background: #111;         /* optional aesthetic */
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Main content box */
+.page-center {
+  width: 100%;
+  max-width: 600px;   /* controls site width */
+  text-align: center; /* center text */
+  padding: 20px;
+}
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
