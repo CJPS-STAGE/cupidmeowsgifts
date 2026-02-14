@@ -41,8 +41,8 @@ button {
   background-color: #fbeee0;
   border: 2px solid #974141;
   border-radius: 30px;
-  box-shadow: #422800 4px 4px 0 0;
-  color: #422800;
+  box-shadow: #974141 4px 4px 0 0;
+  color: #974141;
   cursor: pointer;
   display: block;        /* change from inline-block */
   width: 100%;           /* makes buttons centered layout-friendly */
@@ -70,9 +70,9 @@ button {
 }
 #result {
   width: 100%;
-  max-width: 200px;   /* large dramatic reveal */
+  max-width: 500px;   /* large dramatic reveal */
   height: auto;
-  margin: 20px auto;
+  margin: 10px auto;
   display: block;
 }
 #startup-gif {
