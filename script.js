@@ -21,7 +21,7 @@ const questions = [
     answers: {
       A: { text: "What genre of mormon is at my doorstep this time..", scores: { shin: 1, sof: 1 } },
       B: { text: "This is LITERALLY the start of every horror game.", scores: { chu: 1, ciel: 1, fel: 1, joni: 1, sham: 1 } },
-      C: { text: "Who could it be at this hour?", scores: { alb: 1, alex: 1, leon: 1, nor: 1, kim: 1, anu: 1, emi: 1, ric: 1, cor: 1, mia: 1, gion: 1, liv: 1 } }
+      C: { text: "Who could it be at this hour?", scores: { alb: 1, alex: 1, leon: 1, nor: 1, kim: 1, anu: 1, emi: 1, ric: 1, cor: 1, mia: 1, gion: 1, liv: 1, char: 1 } }
     }
   },
   {
@@ -31,14 +31,14 @@ const questions = [
       A: { text: "It can’t be.. Is this.. the start of my K-Drama?!?", scores: { chu: 1, sof: 1, ciel: 1, fel: 1 } },
       B: { text: "OH MY GOD ITS A STALKER HORROR GAME", scores: { sham: 1, alb: 1, joni: 1, alex: 1 } },
       C: { text: "..I’m going to pretend I didn’t see that.", scores: { leon: 1, shin: 1, nor: 1, kim: 1, anu: 1 } },
-      D: { text: "Hm, did someone I know order this for an event?", scores: { emi: 1, ric: 1, cor: 1, mia: 1, gion: 1, liv: 1 } }
+      D: { text: "Hm, did someone I know order this for an event?", scores: { emi: 1, ric: 1, cor: 1, mia: 1, gion: 1, liv: 1, char: 1 } }
     }
   },
   {
     question: "Suddenly, a cat-like figure bursts out of the box. “Love looks not with the eyes, but with the mind; And therefore is winged Cupid painted blind. Tis I, Cupid Meow! I was called upon this mortal realm to fix your love life~” Cupid Meow hums.",
     image: "IMAGES/q3.png",
     answers: {
-      A: { text: "I’m calling the cops.", scores: { gion: 1, emi: 1, nor: 1, leon: 1, shin: 1, ric: 1 } },
+      A: { text: "I’m calling the cops.", scores: { gion: 1, emi: 1, nor: 1, leon: 1, shin: 1, ric: 1, char: 1 } },
       B: { text: "OH MY GOD PLEASE DON’T KILL ME I’M SORRY I IGNORED THE STARVING STRAY CAT AT THE STREET 2 DAYS AGO", scores: { fel: 1, joni: 1, sham: 1, alex: 1 } },
       C: { text: "Damn, this advertisement is sick dude! Technology has come so far.", scores: { alb: 1, kim: 1, cor: 1, liv: 1 } },
       D: { text: "*gasp* Really?! Have my prayers finally been answered? Who is my destined soulmate? Or… *gasp* Could it be…. [insert crush name]? That would truly be tragic!!!", scores: { sof: 1, ciel: 1, chu: 1 }}
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
