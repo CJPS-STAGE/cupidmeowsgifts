@@ -16,7 +16,7 @@ function selectCategory(category) {
 
 const questions = [
   {
-    question: "Love is in the air! You’re watching BakingWithJoni while sipping a cup of chrysanthemum tea. You take mental notes— knowing you won’t bake the fruit tarts anyway. It was truly a peaceful da-<br> *BANG, BANG, BANG!* <br>You open the door with a groan.",
+    question: "Love is in the air! You’re watching BakingWithJoni while sipping a cup of chrysanthemum tea. You take mental notes— knowing you won’t bake the fruit tarts anyway. It was truly a peaceful da-<br><br> *BANG, BANG, BANG!* <br>You open the door with a groan.",
     image: "IMAGES/q1.gif",
     answers: {
       A: { text: "What genre of mormon is at my doorstep this time..", scores: { shin: 1, sof: 1 } },
@@ -25,7 +25,7 @@ const questions = [
     }
   },
   {
-    question: "At the doorstep, you see a bakery box with a tag attached. You examine it—‘Goods by BakingWithJoni’. It’s from the show you were watching..?",
+    question: "At the doorstep, you see a bakery box with a tag attached. You examine it—‘Goods by BakingWithJoni’. <br><br>It’s from the show you were watching..?",
     image: "IMAGES/q2.png",
     answers: {
       A: { text: "It can’t be.. Is this.. the start of my K-Drama?!?", scores: { chu: 1, sof: 1, ciel: 1, fel: 1 } },
@@ -55,7 +55,7 @@ const questions = [
     }
   },
   {
-    question: "“Wait— Hold on! You’re not doing it prope—“ Cupid Meow gets interrupted by the loud groan coming from the bakery box.<br> The bakery box grew bigger and bigger, caging both of you in the process.",
+    question: "“Wait— Hold on! You’re not doing it prope—“ Cupid Meow gets interrupted by the loud groan coming from the bakery box.<br><br> The bakery box grew bigger and bigger, caging both of you in the process.",
     image: "IMAGES/q5.gif",
     answers: {
       A: { text: "..Why didn’t I call the cops?", scores: { alb: 1, gion: 1, nor: 1, ric: 1, sof: 1, char: 1, leon: 1 } },
@@ -65,7 +65,7 @@ const questions = [
     }
   },
   {
-    question: "While you were caught off guard, the floor shifted into an endless series of spiral staircases. You tumble and tumble continuously until you feel Cupid Meow hook and slam you onto the ground.<br> “Woah! Rough ride, huh? I apologise for that..” Cupid Meow says awkwardly. You ignore him and examine the place.",
+    question: "While you were caught off guard, the floor shifted into an endless series of spiral staircases. You tumble and tumble continuously until you feel Cupid Meow hook and slam you onto the ground.<br><br> “Woah! Rough ride, huh? I apologise for that..” Cupid Meow says awkwardly. You ignore him and examine the place.",
     image: "IMAGES/q6.gif",
     answers: {
       A: { text: "Is this a Roblox obby?", scores: { alb: 1, gion: 1, nor: 1, ric: 1, sof: 1, char: 1, leon: 1 } },
@@ -75,7 +75,7 @@ const questions = [
     }
   },
   {
-    question: "“No, you’ve got it all wrong! Y-you see… you’re not supposed to be here. You disrupted the balance placed into the fruit tart and now you’re here. I’ll help you out, swear!!!” Cupid Meow stutters. <br>You sigh and look around for a way out. To your surprise, you spot figures with… valentine boxes as their heads.",
+    question: "“No, you’ve got it all wrong! Y-you see… you’re not supposed to be here. You disrupted the balance placed into the fruit tart and now you’re here. I’ll help you out, swear!!!” Cupid Meow stutters. <br><br>You sigh and look around for a way out. To your surprise, you spot figures with… valentine boxes as their heads.",
     image: "IMAGES/q7.png",
     answers: {
       A: { text: "You approach them", scores: { alex: 1, alb: 1, leon: 1, emi: 1, cor: 1, ric: 1 } },
@@ -85,7 +85,7 @@ const questions = [
     }
   },
   {
-    question: "The valentine box headed figures immediately noticed your presence. <br>Before you could react, they rushed at you at a rapid speed. <br>CLING CLANK CLING CLANK",
+    question: "The valentine box headed figures immediately noticed your presence. <br><br>Before you could react, they rushed at you at a rapid speed. <br><br>CLING CLANK CLING CLANK",
     image: "IMAGES/q8.gif",
     answers: {
       A: { text: "You run away", scores: { chu: 1, fel: 1, gion: 1, liv: 1, joni: 1, nor: 1, sof: 1, char: 1 } },
@@ -95,7 +95,7 @@ const questions = [
     }
   },
   {
-    question: "“Halt, That peasants mine!” a commanding voice shouted. The valentine box headed figures immediately froze.<br> Shortly, a brunette man in royal clothing approaches you. “I am Prince Gion of the Ice Kingdom. You are currently trespassing on our kingdom's borders, peasant outlander. Do you require assistance?”",
+    question: "“Halt, That peasants mine!” a commanding voice shouted. The valentine box headed figures immediately froze.<br><br> Shortly, a brunette man in royal clothing approaches you. “I am Prince Gion of the Ice Kingdom. You are currently trespassing on our kingdom's borders, peasant outlander. Do you require assistance?”",
     image: "IMAGES/q9.png",
     answers: {
       A: { text: "WHO are you calling a peasant?!", scores: { sof: 1, ciel: 1, alb: 1, joni: 1, chu: 1, shin: 1, anu: 1, emi: 1, ric: 1 } },
@@ -105,7 +105,7 @@ const questions = [
     }
   },
   {
-    question: "“Hey, back off! They’re mine!” Cupid Meow yells as he shields you with his candy cane.<br> “Hmph, you love fairies and your ridiculous magic. This peasant is better off with me.” Prince Gion argues.<br> “They’re lost— I need to help them escape!” Cupid Meow pleas. <br>“Hah, I'm assuming YOU were the one that brought the peasant here.” Prince Gion scoffs. <br>“..Well, whatever! They would definitely trust their life with ME over YOU! …Right?” Cupid Meow asks you.",
+    question: "“Hey, back off! They’re mine!” Cupid Meow yells as he shields you with his candy cane.<br><br> “Hmph, you love fairies and your ridiculous magic. This peasant is better off with me.” Prince Gion argues.<br><br> “They’re lost— I need to help them escape!” Cupid Meow pleas. <br><br>“Hah, I'm assuming YOU were the one that brought the peasant here.” Prince Gion scoffs. <br><br>“..Well, whatever! They would definitely trust their life with ME over YOU! …Right?” Cupid Meow asks you.",
     image: "IMAGES/q10.gif",
     answers: {
       A: { text: "I’d trust my life with you, Cupid Meow!", scores: { joni: 1, cor: 1, alex: 1, alb: 1, ciel: 1, fel: 1, chu: 1 } },
@@ -114,7 +114,7 @@ const questions = [
     }
   },
   {
-    question: "“HUUUUUUH?!?!?” Prince Gion flashes an evil smirk. “Guards, seize this peasant now!” he immediately commands. <br>You finally realise the situation you’re in. You ran away from the commotion, looking for a hiding spot. Suddenly, you stumble onto someone by accident. “AAAAH!” a soft voice yelps.",
+    question: "“HUUUUUUH?!?!?” Prince Gion flashes an evil smirk. “Guards, seize this peasant now!” he immediately commands. <br><br>You finally realise the situation you’re in. You ran away from the commotion, looking for a hiding spot. Suddenly, you stumble onto someone by accident. “AAAAH!” a soft voice yelps.",
     image: "IMAGES/q11.png",
     answers: {
       A: { text: "OH GOD I’M SO SORRY PLEASE DON’T KILL ME", scores: { sham: 1, ciel: 1, fel: 1, chu: 1 } },
@@ -124,7 +124,7 @@ const questions = [
     }
   },
   {
-    question: "You look up to see two women who appear to be mages.<br> “Oh dear, are you alright? Please, take this herb. It will heal any minor injuries.” a mother-like mage says.<br> “I-i’m so sorry! I’ll make sure to be more careful!” a timid voice followed.",
+    question: "You look up to see two women who appear to be mages.<br><br> “Oh dear, are you alright? Please, take this herb. It will heal any minor injuries.” a mother-like mage says.<br><br> “I-i’m so sorry! I’ll make sure to be more careful!” a timid voice followed.",
     image: "IMAGES/q12.png",
     answers: {
       A: { text: "A fruit tart sent me to a whole different dimension. What makes you think I’ll accept herbs from a mage?", scores: { shin: 1, anu: 1, sof: 1, emi: 1, leon: 1, gion: 1 } },
@@ -134,14 +134,14 @@ const questions = [
     }
   },
   {
-    question: "“Don’t fret. I am Mage Neelam. The Wise and Generous of the Candy Borders.” Mage Neelam says softly.<br> “Um.. I’m Mia, her apprentice.” Mia says with a crooked smile.",
+    question: "“Don’t fret. I am Mage Neelam. The Wise and Generous of the Candy Borders.” Mage Neelam says softly.<br><br> “Um.. I’m Mia, her apprentice.” Mia says with a crooked smile.",
     image: "IMAGES/q13.png",
     answers: {
       A: { text: "Candy Borders..? Miss, I’m not from this dimension! Please take me back home!", scores: { shin: 1, anu: 1, sof: 1, emi: 1, leon: 1, gion: 1, joni: 1, ciel: 1, felix: 1, chu: 1, alex: 1, sham: 1, mia: 1, liv: 1, alb: 1, char: 1, nor: 1, cor: 1, ric: 1, kim: 1 } }
     }
   },
   {
-    question: "“H-huh, really?! That explains the major changes in the borders earlier..” Mia responds. <br>“Ah, yes. You are correct, Mia. This is quite the case. Well, our outlander shouldn’t overstay their welcome. I shall bring you back now.” Mage Neelam says as she waves her sceptre.",
+    question: "“H-huh, really?! That explains the major changes in the borders earlier..” Mia responds. <br><br>“Ah, yes. You are correct, Mia. This is quite the case. Well, our outlander shouldn’t overstay their welcome. I shall bring you back now.” Mage Neelam says as she waves her sceptre.",
     image: "IMAGES/q14.png",
     answers: {
       A: { text: "Damn, finally! This advertisement is way too long.", scores: { kim: 1, nor: 1, ric: 1, anu: 1, shin: 1 } },
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
