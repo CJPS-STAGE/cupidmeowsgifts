@@ -138,15 +138,14 @@ button {
   }
 
   
-  .question-text {
-    font-size: 20px;
-  }
+.question-text {
+  font-size: clamp(18px, 4vw, 24px);
+}
 
-  
-  .button-74 {
-    font-size: 18px;
-    padding: 14px 16px;
-  }
+.button-74 {
+  font-size: clamp(16px, 3.5vw, 20px);
+}
+
 
   
   #quiz img {
