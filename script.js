@@ -217,7 +217,7 @@ const resultOptions = {
   sham: {
     category: "Candy Series",
     name: "Alex",
-    image: "sham",
+    image: "sham.png",
     description: "You are... an Alex Valentine Card!"
   },
 
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
