@@ -125,7 +125,7 @@ button {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 350px) {
 
   .page-center {
     max-width: 85%;
@@ -133,11 +133,11 @@ button {
   }
 
   .question-text {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .button-74 {
-    font-size: 22px;
+    font-size: 15px;
     padding: 18px;
   }
 
@@ -154,7 +154,7 @@ button {
   }
 
   #quiz img {
-    max-width: 67%;
+    max-width: 50%;
   }
 
   #result-image {
