@@ -297,7 +297,7 @@ function displayQuestion() {
 
   for (const option in question.answers) {
     html += `
-      <<button class="button-74"> value="${option}">
+      <button class="button-74" value="${option}">
         ${question.answers[option].text}
       </button>
     `;
@@ -308,7 +308,7 @@ function displayQuestion() {
 }
 
 function attachButtonClickHandlers() {
-  const choiceButtons = document.querySelectorAll('.large-rectangular');
+  const choiceButtons = document.querySelectorAll('.button-74');
   choiceButtons.forEach((button) => {
     button.addEventListener('click', handleAnswer);
   });
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
