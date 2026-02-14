@@ -34,10 +34,3 @@ img {
   height: auto;
   margin: 15px 0;
 }
-.page-center {
-  max-width: 700px;
-  background: rgba(0,0,0,0.6);
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.5);
-}
