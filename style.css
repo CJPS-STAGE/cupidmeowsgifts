@@ -30,7 +30,7 @@ button {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  margin: 15px 0;
+  margin: 10px 0;
 }
