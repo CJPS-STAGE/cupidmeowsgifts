@@ -163,122 +163,122 @@ const resultOptions = {
   joni: {
     category: "Candy Series",
     name: "Joni",
-    image: "joni.png.png",
+    image: "IMAGES/joni.png.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   chu: {
     category: "Candy Series",
     name: "Charles",
-    image: "chuuni.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/chuuni.png.png",
+    description: "You are... Charles Letters and Roses!"
   },
   sof: {
     category: "Candy Series",
     name: "Sofia",
-    image: "sofia.png.png",
-    description: "You are... a Sofia Perfume!"
+    image: "IMAGES/sofia.png.png",
+    description: "You are... a Sofia Red Rose Perfume!"
   },
   nor: {
     category: "Candy Series",
     name: "Norman",
-    image: "norman.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/norman.png.png",
+    description: "You are... Norman Blueberry Pancakes!"
   },
   kim: {
     category: "Candy Series",
     name: "Kim Ji Won",
-    image: "kimjiwon.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/kimjiwon.png.png",
+    description: "You are... a Kim Ji Won Assorted Bouquet!"
   },
   emi: {
     category: "Candy Series",
     name: "Emilia",
-    image: "emilia.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/emilia.png.png",
+    description: "You are... an Emilia Heart-Themed Notebook!"
   },
   ric: {
     category: "Candy Series",
     name: "Richard",
-    image: "richard.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/richard.png.png",
+    description: "You are... a Richard Luxury Watch!"
   },
   cor: {
     category: "Candy Series",
     name: "Corey",
-    image: "corey.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/corey.png.png",
+    description: "You are... a Corey Tangerine Teddy!"
   },
   mia: {
     category: "Candy Series",
     name: "Mia",
-    image: "mia.png.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/mia.png.png",
+    description: "You are... Mia Crochet Flowers!"
   },
   sham: {
     category: "Candy Series",
     name: "Alex",
-    image: "sham.png",
-    description: "You are... a Joni Strawberry Jam Cookie!"
+    image: "IMAGES/sham.png",
+    description: "You are... an Alex Valentine Card!"
   },
 
   ciel: {
     category: "Prince Series",
     name: "Ciel",
-    image: "ciel.png.png",
+    image: "IMAGES/ciel.png.png",
     description: "You are... a Ciel Perfume!"
   },
   fel: {
     category: "Prince Series",
     name: "Felix",
-    image: "felix.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/felix.png.png",
+    description: "You are... a Felix Teddy Bear!"
   },
   leon: {
     category: "Prince Series",
     name: "Leon",
-    image: "leon.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/leon.png.png",
+    description: "You are... a Leon Notebook!"
   },
   shin: {
     category: "Prince Series",
     name: "Shintarou",
-    image: "shintarou.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/shintarou.png.png",
+    description: "You are... a Shintarou Valentines Microbit!"
   },
   anu: {
     category: "Prince Series",
     name: "Anubis",
-    image: "anubis.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/anubis.png.png",
+    description: "You are... Anubis Heart Candles!"
   },
   gion: {
     category: "Prince Series",
     name: "Gion",
-    image: "gion.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/gion.png.png",
+    description: "You are... a Gion Pocket Watch!"
   },
   liv: {
     category: "Prince Series",
     name: "Livio",
-    image: "livio.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/livio.png.png",
+    description: "You are... Livio Love Letters!"
   },
   alb: {
     category: "Prince Series",
     name: "Albert",
-    image: "albert.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/albert.png.png",
+    description: "You are... an Albert Tea Sandwich Biscuit!"
   },
   char: {
     category: "Prince Series",
     name: "Charles",
-    image: "charles.png.png",
-    description: "You are... a Ciel Perfume!"
+    image: "IMAGES/charles.png.png",
+    description: "You are... a Charles Valentines Chocolate Box!"
   },
   alex: {
     category: "Prince Series",
     name: "Alexis",
-    image: "alexis.png.png",
+    image: "IMAGES/alexis.png.png",
     description: "You are... Alexis Morning Pancakes!"
   }
 };
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
