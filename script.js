@@ -163,122 +163,122 @@ const resultOptions = {
   joni: {
     category: "Candy Series",
     name: "Joni",
-    image: "IMAGES/joni.png.png",
+    image: "IMAGES/joni.png",
     description: "You are... a Joni Strawberry Jam Cookie!"
   },
   chu: {
     category: "Candy Series",
     name: "Charles",
-    image: "IMAGES/chuuni.png.png",
+    image: "IMAGES/chuuni.png",
     description: "You are... Charles Letters and Roses!"
   },
   sof: {
     category: "Candy Series",
     name: "Sofia",
-    image: "IMAGES/sofia.png.png",
+    image: "IMAGES/sofia.png",
     description: "You are... a Sofia Red Rose Perfume!"
   },
   nor: {
     category: "Candy Series",
     name: "Norman",
-    image: "IMAGES/norman.png.png",
+    image: "IMAGES/norman.png",
     description: "You are... Norman Blueberry Pancakes!"
   },
   kim: {
     category: "Candy Series",
     name: "Kim Ji Won",
-    image: "IMAGES/kimjiwon.png.png",
+    image: "IMAGES/kimjiwon.png",
     description: "You are... a Kim Ji Won Assorted Bouquet!"
   },
   emi: {
     category: "Candy Series",
     name: "Emilia",
-    image: "IMAGES/emilia.png.png",
+    image: "IMAGES/emilia.png",
     description: "You are... an Emilia Heart-Themed Notebook!"
   },
   ric: {
     category: "Candy Series",
     name: "Richard",
-    image: "IMAGES/richard.png.png",
+    image: "IMAGES/richard.png",
     description: "You are... a Richard Luxury Watch!"
   },
   cor: {
     category: "Candy Series",
     name: "Corey",
-    image: "IMAGES/corey.png.png",
+    image: "IMAGES/corey.png",
     description: "You are... a Corey Tangerine Teddy!"
   },
   mia: {
     category: "Candy Series",
     name: "Mia",
-    image: "IMAGES/mia.png.png",
+    image: "IMAGES/mia.png",
     description: "You are... Mia Crochet Flowers!"
   },
   sham: {
     category: "Candy Series",
     name: "Alex",
-    image: "IMAGES/sham.png",
+    image: "IMAGES/sham",
     description: "You are... an Alex Valentine Card!"
   },
 
   ciel: {
     category: "Prince Series",
     name: "Ciel",
-    image: "IMAGES/ciel.png.png",
+    image: "IMAGES/ciel.png",
     description: "You are... a Ciel Perfume!"
   },
   fel: {
     category: "Prince Series",
     name: "Felix",
-    image: "IMAGES/felix.png.png",
+    image: "IMAGES/felix.png",
     description: "You are... a Felix Teddy Bear!"
   },
   leon: {
     category: "Prince Series",
     name: "Leon",
-    image: "IMAGES/leon.png.png",
+    image: "IMAGES/leon.png",
     description: "You are... a Leon Notebook!"
   },
   shin: {
     category: "Prince Series",
     name: "Shintarou",
-    image: "IMAGES/shintarou.png.png",
+    image: "IMAGES/shintarou.png",
     description: "You are... a Shintarou Valentines Microbit!"
   },
   anu: {
     category: "Prince Series",
     name: "Anubis",
-    image: "IMAGES/anubis.png.png",
+    image: "IMAGES/anubis.png",
     description: "You are... Anubis Heart Candles!"
   },
   gion: {
     category: "Prince Series",
     name: "Gion",
-    image: "IMAGES/gion.png.png",
+    image: "IMAGES/gion.png",
     description: "You are... a Gion Pocket Watch!"
   },
   liv: {
     category: "Prince Series",
     name: "Livio",
-    image: "IMAGES/livio.png.png",
+    image: "IMAGES/livio.png",
     description: "You are... Livio Love Letters!"
   },
   alb: {
     category: "Prince Series",
     name: "Albert",
-    image: "IMAGES/albert.png.png",
+    image: "IMAGES/albert.png",
     description: "You are... an Albert Tea Sandwich Biscuit!"
   },
   char: {
     category: "Prince Series",
     name: "Charles",
-    image: "IMAGES/charles.png.png",
+    image: "IMAGES/charles.png",
     description: "You are... a Charles Valentines Chocolate Box!"
   },
   alex: {
     category: "Prince Series",
     name: "Alexis",
-    image: "IMAGES/alexis.png.png",
+    image: "IMAGES/alexis.png",
     description: "You are... Alexis Morning Pancakes!"
   }
 };
@@ -370,6 +370,7 @@ function showResult() {
   document.getElementById('quiz').style.display = 'none';
   document.getElementById('result').style.display = 'block';
 }
+
 
 
 
